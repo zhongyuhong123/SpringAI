@@ -8,6 +8,7 @@ class IntelligentChatbotApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
