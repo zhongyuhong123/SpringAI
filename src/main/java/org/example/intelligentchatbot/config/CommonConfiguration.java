@@ -20,7 +20,7 @@ public class CommonConfiguration {
     @Bean
     public ChatClient chatClient(OpenAiChatModel chatModel, ChatMemory chatMemory) {
         return ChatClient.builder(chatModel)
-                .defaultSystem("你叫小特, 是一款智能AI助手, 你擅长Java和C++, 主要负责日常答疑, 请以友好的态度来回答问题")
+                .defaultSystem("你叫小智, 是一个智能聊天机器人, 你擅长各个科目, 主要负责解答疑惑, 请以友好的态度来回答问题")
                 .defaultAdvisors(new SimpleLoggerAdvisor(), new MessageChatMemoryAdvisor(chatMemory))
                 .build();
     }
