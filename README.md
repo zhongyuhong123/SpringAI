@@ -25,12 +25,8 @@
 
 ### 技术亮点
 - **前后端分离**: Vue.js + Spring Boot全栈解决方案
-- **实时通信**: WebSocket协议确保低延迟游戏体验
-- **数据安全**: JWT认证、密码加密和HTTPS传输
-- **高并发**: Redis缓存、连接池和消息队列优化
-- **可扩展性**: 模块化设计，易于添加新棋类和功能
-- **容器化部署**: Docker + Docker Compose一键部署
-- **自动化测试**: 完整的单元测试和集成测试覆盖
+- **大模型**: deepseek接入
+
 
 ## 项目预览
 
@@ -74,7 +70,7 @@ java -jar target/gobang-backend-*.jar
 ![系统架构图](docs/images/architecture.png)
 
 ### 前端技术栈
-- **框架**: Vue.js 3 + TypeScript
+- **框架**: HTML+CSS+JAVASCRIPT
 
 
 ### 后端技术栈
@@ -138,15 +134,14 @@ java -jar target/gobang-backend-*.jar
 
 ## 许可证
 
-本项目采用 [MIT许可证](LICENSE) - 查看LICENSE文件了解详情
+本项目采用 [Apache-2.0](LICENSE) - 查看LICENSE文件了解详情
 
 ## 致谢
 
 感谢以下开源项目和贡献者：
-- [Vue.js](https://vuejs.org/) - 渐进式JavaScript框架
+- [deepseek](https://www.deepseek.com/) - deepseek AI开放平台
 - [Spring Boot](https://spring.io/projects/spring-boot) - Java应用框架
-- [Element Plus](https://element-plus.org/) - Vue 3 UI组件库
-- [MyBatis Plus](https://baomidou.com/) - MyBatis增强工具
+
 
 ## 联系我们
 
@@ -159,5 +154,5 @@ java -jar target/gobang-backend-*.jar
 
 <div align="center">
   <p>如果这个项目对你有帮助，请给我们一个 Star</p>
-  <p>Made with love by Come 下棋 Team</p>
+  <p>Made with love by intelligent-chatbot Team</p>
 </div>
