@@ -44,25 +44,10 @@
 
 #### 3. 后端配置和启动
 ```bash
-cd backend
 
-# 修改配置文件
-cp src/main/resources/application.yml.example src/main/resources/application.yml
-# 编辑 application.yml，配置数据库和Redis连接
-
-# 构建项目
-mvn clean package -DskipTests
-
-# 启动应用
-java -jar target/gobang-backend-*.jar
 ```
 
-
-
 #### 5. 访问应用
-- **前端地址**: http://localhost:3000
-- **后端API**: http://localhost:8080
-- **API文档**: http://localhost:8080/swagger-ui.html
 
 ## 技术架构
 
@@ -71,7 +56,6 @@ java -jar target/gobang-backend-*.jar
 
 ### 前端技术栈
 - **框架**: HTML+CSS+JAVASCRIPT
-
 
 ### 后端技术栈
 - **框架**: Spring Boot 3.2.x
